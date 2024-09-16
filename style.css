@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* unvisited link */
+a:link {
+  background-color: red;
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  background-color: red;
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: red;
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  background-color: red;
+  color: blue;
+}
